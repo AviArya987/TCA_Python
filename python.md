@@ -22,87 +22,14 @@
 
 ## **1. 🧠 How Programs Run (Behind the Scenes)**
 
-Understanding how a program actually runs inside a computer builds the foundation for all future skills. Here’s what happens under the hood:
+### **🟣 Topics:**
 
----
-
-### **🟦 1.1 — From Code to Execution**
-
-When you write code (like Python), it’s just text.
-To make it run, the computer goes through these steps:
-
-Your Code (text)
-      ↓
-Python Interpreter reads it
-      ↓
-Converts to Bytecode (.pyc)
-      ↓
-Python Virtual Machine executes it
-
----
-
-### **🟩 1.2 — What is an Interpreter?**
-
-* Python is an **interpreted language**
-* It reads your code **line-by-line**, executes it immediately
-* This makes Python easier for beginners and great for data science
-
-**Interpreter analogy:**
-Think of Python as a translator standing between you and the computer:
-You speak → Translator interprets → Computer executes.
-
----
-
-### **🟧 1.3 — What is Bytecode?**
-
-After reading your Python code, the interpreter converts it to something called **bytecode**:
-
-* Not human-readable
-* Not machine instructions
-* A middle layer that makes Python fast
-
-Example:
-`print("Hello")` → converted to → internal bytecode instructions.
-
----
-
-### **🟪 1.4 — Python Virtual Machine (PVM)**
-
-The PVM is the “engine” of Python.
-
-Its job:
-
-* Take bytecode
-* Execute it step-by-step
-* Manage memory
-* Handle errors
-
-If bytecode is the “recipe”,
-the PVM is the “chef” that cooks it.
-
----
-
-### **🟥 1.5 — What About JIT Compilers?**
-
-Some Python engines like **PyPy** use JIT (Just-In-Time) compilation:
-
-* They convert frequently used code into machine code
-* Makes Python much faster
-* Useful in heavy data-science workloads
-
----
-
-### **🟫 1.6 — Summary Flow Diagram**
-
-👨‍💻 You write Python code
-            ↓
-📝 Interpreter reads code line-by-line
-            ↓
-⚙️ Converts to Bytecode
-            ↓
-🚀 Python Virtual Machine executes instructions
-            ↓
-🧮 CPU performs operations & Memory stores results
+* 1 — From Code to Execution
+* What is an Interpreter?
+* What is Bytecode?
+* Python Virtual Machine (PVM)
+* What About JIT Compilers?
+* Summary Flow Diagram
 
 ---
 # 🧱 **2. Python Foundations**
@@ -111,7 +38,6 @@ Some Python engines like **PyPy** use JIT (Just-In-Time) compilation:
 
 ### **🟣 Topics:**
 
-* What is Python?
 * Installing Python, Pip & VS Code
 * Running Python files (`.py`)
 * REPL, Jupyter Notebook, Anaconda
