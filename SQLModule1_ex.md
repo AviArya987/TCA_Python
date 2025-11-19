@@ -1,8 +1,3 @@
-Here you go — **Module 1: MySQL Foundations**
-**Assignments + Practice Problems + Output-Prediction Quiz (10 Qs)**
-Designed for **beginners → aspiring Data Scientists**, with **icons + clean formatting**.
-
----
 
 # 🧩 **MODULE 1 — MySQL Foundations**
 
@@ -132,8 +127,6 @@ SELECT COUNT(city) FROM users;
 
 ---
 
----
-
 # 📚 **Section B — Assignments (Module 1)**
 
 ---
@@ -230,8 +223,6 @@ Run:
 
 ---
 
----
-
 # 🧠 **Section C — Practice Problems (Real DS Skills)**
 
 (Perfect for strengthening fundamentals)
@@ -320,14 +311,3 @@ Convert all employee names to:
 Find orders with amount > average amount.
 
 ---
-
----
-
-# 🎉 **DONE!**
-
-If you want:
-✅ Solutions key
-✅ More advanced problems
-✅ Visual diagrams (ERD, flowcharts)
-✅ PDF or PPT version
-Just say **“Generate next set”**
