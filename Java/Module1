@@ -1,0 +1,248 @@
+# 📘 Module 1 — How a Computer Operates & Foundations of Programming
+
+---
+
+# 🧭 Table of Contents
+
+1. ⚙️ How a Computer Operates
+
+   * CPU Workflow
+   * Fetch-Decode-Execute Cycle
+   * Memory Architecture
+   * OS Interaction
+   * Program Execution Lifecycle
+2. 🧑‍💻 Essence of Programming
+3. 🗂 Types of Programming Languages
+4. 📊 Visual Diagrams (SVG/ASCII)
+
+---
+
+# ⚙️ 1. How a Computer Operates
+
+Computers work through electrical signals, logic circuits, structured memory, and a strict execution cycle. This section explains **how things actually work under the hood**, not the basic definition of a computer.
+
+---
+
+## 🧩 1.1 CPU Internal Workflow
+
+The CPU is the brain of the computer. It executes instructions using micro-electrical switching.
+
+### 🧠 Components of CPU
+
+* **ALU (Arithmetic Logic Unit)** → Performs arithmetic & logical operations
+* **CU (Control Unit)** → Directs operation of the processor
+* **Registers** → Fastest memory location to hold immediate data
+* **Clock** → Ticks that drive instruction execution
+
+### ⚙️ How the CPU Works
+
+Every operation inside a CPU follows a standard pipeline:
+
+```
+🔌 Electrical Signal → 🔢 Binary Interpretation → 🧠 CPU Logic → 📤 Output
+```
+
+---
+
+## 🔄 1.2 The Fetch - Decode - Execute Cycle
+
+This is the heart of all computation.
+
+### ⏳ Step-by-step:
+
+```
+1. FETCH → Get instruction from memory
+2. DECODE → Understand what needs to be done
+3. EXECUTE → Perform the operation
+4. WRITE BACK → Store result
+```
+
+### 📐 SVG-style CPU Cycle Diagram
+
+```
+        ┌───────────────┐
+        │    FETCH      │
+        └──────┬────────┘
+               ▼
+        ┌───────────────┐
+        │    DECODE     │
+        └──────┬────────┘
+               ▼
+        ┌───────────────┐
+        │    EXECUTE    │
+        └──────┬────────┘
+               ▼
+        ┌───────────────┐
+        │  WRITE BACK   │
+        └───────────────┘
+```
+
+---
+
+## 🧱 1.3 Memory Architecture
+
+Memory determines **how fast** a CPU can work. It has hierarchy:
+
+### 🧊 Memory Hierarchy
+
+```
+CPU Registers (Fastest)
+L1 Cache
+L2 Cache
+L3 Cache
+RAM
+SSD/HDD (Slowest)
+```
+
+### 📐 Memory Hierarchy Diagram
+
+```
+        ┌──────────────┐
+        │   Registers   │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │    L1 Cache   │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │    L2 Cache   │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │    L3 Cache   │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │     RAM       │
+        └──────────────┘
+```
+
+### 🧠 Binary Data Representation
+
+Everything is binary: `0` & `1`.
+
+* 1 bit → lowest unit
+* 8 bits → 1 byte
+
+Example: number **57** in binary → `00111001`
+
+---
+
+## 🖥️ 1.4 How the OS Interacts With Hardware
+
+Operating System acts as a **manager**.
+
+### ⭐ Responsibilities
+
+* Memory management
+* Process scheduling
+* Hardware communication (keyboard, mouse)
+* File management
+
+### 📐 System Call Diagram
+
+```
+Application
+    │
+    ▼
+System Call (API)
+    │
+    ▼
+Kernel
+    │
+    ▼
+Drivers → Hardware
+```
+
+### 🎯 What Happens When You Open Chrome?
+
+1. OS loads program metadata
+2. Allocates memory (stack + heap)
+3. Schedules CPU time
+4. Loads browser window
+
+---
+
+## 🚀 1.5 Program Execution Lifecycle
+
+From clicking a program to executing machine code:
+
+### 🔥 Lifecycle
+
+```
+Source Code → Compilation → Machine Code → CPU Executes → Output
+```
+
+### 📐 Execution Diagram
+
+```
+        ┌──────────────┐
+        │ Source Code  │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │   Compiler   │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │ Machine Code │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │     CPU      │
+        └──────────────┘
+```
+
+---
+
+# 🧑‍💻 2. Essence of Programming
+
+Programming is the art of telling a computer **what to do** using logic and instructions.
+
+### 🧠 Why Programming?
+
+* Automate tasks
+* Perform calculations
+* Build systems
+* Solve business problems
+
+### 🎯 Programming = Logic + Structure + Syntax
+
+---
+
+# 🗂 3. Types of Programming Languages
+
+| Category   | Examples          | What It Means              |
+| ---------- | ----------------- | -------------------------- |
+| Low-Level  | Machine, Assembly | Hardware-near instructions |
+| High-Level | Java, Python      | Human-readable             |
+| Procedural | C, Pascal         | Step-by-step flow          |
+| OOP        | Java, C++         | Objects & classes          |
+| Functional | Haskell, Scala    | Functions-first            |
+| Scripting  | JS, Python        | Dynamic execution          |
+| Hybrid     | Java              | Compiled + Interpreted     |
+
+---
+
+---
+
+# 📊 4. Visual Diagrams (Combined Overview)
+
+## 🧩 Full System Execution Flow
+
+```
+User Action
+    ▼
+Operating System
+    ▼
+Program Loader
+    ▼
+Memory Allocation
+    ▼
+CPU Instruction Cycle
+    ▼
+Output
+```
+
+---
