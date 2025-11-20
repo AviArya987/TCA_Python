@@ -14,7 +14,6 @@
 * 🌍 Client–Server architecture of MySQL
 * 🐬 Installing & connecting MySQL (Workbench / CLI)
 * 🏗️ Databases, Schemas, Tables, Rows, Columns
-* 🔑 Primary Keys, Foreign Keys (Basic intro)
 
 ---
 
