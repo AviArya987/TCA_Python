@@ -293,6 +293,3 @@ Understanding:
 ✔ INNER, LEFT, RIGHT, FULL, CROSS & SELF JOIN
 ✔ How to visualize and choose the right join
 ✔ How to combine multiple tables into meaningful results
-
-Just tell me.
-```
