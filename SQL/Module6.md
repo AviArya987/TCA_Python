@@ -137,8 +137,6 @@ ON employees.dept_id = departments.dept_id;
 
 *(Same result here because all match — but useful in real situations)*
 
----
-
 📝 **Practice:**
 List employees and show `"No Department"` if there's no match (use `COALESCE`).
 
@@ -167,7 +165,6 @@ ON employees.dept_id = departments.dept_id;
 | Lisa  | Marketing |
 | NULL  | Finance   |
 
----
 
 🎯 **Use when:** You want everything from the referenced (right) table.
 
@@ -265,8 +262,6 @@ Write queries to:
 3️⃣ Show all employees even if missing departments (LEFT JOIN)
 4️⃣ Create a full query combining both tables
 5️⃣ Create a cart of **all pairs** of employees and departments (CROSS JOIN)
-
----
 
 ---
 
