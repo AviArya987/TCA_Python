@@ -129,7 +129,7 @@ The system that **stores & processes** the data.
 ## ⚙️ 1.6 Installing & Setting Up MySQL
 
 ### 📦 Install the following:
-- MySQL Server  
+- MySQL Server (Prefer MySQL Installation Guide)
 - MySQL Workbench  
 
 ### 🎯 Verify Installation
@@ -144,6 +144,8 @@ SELECT VERSION();
 ### 🖥️  Command Line (mysql shell)
 
 Fastest, preferred by developers.
+
+---
 
 ### 🖼️ GUI Tools
 
@@ -276,19 +278,3 @@ Create schema **library_db** with:
 * return_date
 
 ---
-
-# 📝 End-of-Module Assignment
-
-### ❗ Build a **College Management System**
-
-Tables required:
-
-* students
-* courses
-* enrollment
-* departments
-
-Queries to write:
-
-* Students enrolled in a specific course
-* All courses under a specific department
