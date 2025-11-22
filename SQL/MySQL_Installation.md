@@ -11,15 +11,13 @@ Install MySQL Server + MySQL Workbench and configure it properly for your learni
 1. Open your browser and go to:
    👉 *Google:* **MySQL Workbench download**
 2. Click the official MySQL link (Oracle website).
-3. You'll see **Download MySQL Installer**.
-4. Choose:
+   
+   <img width="1234" height="880" alt="image" src="https://github.com/user-attachments/assets/33aec121-1315-44d1-8e98-2a31494eed7d" />
 
-| Installer Type              | When to Choose                                                       |
-| --------------------------- | -------------------------------------------------------------------- |
-| **Web Installer (~2MB)**    | If you have stable internet (downloads remaining components online). |
-| **Full Installer (~400MB)** | If internet is slow or installing offline.                           |
+4. You'll see **Download**.
+5. Click on "No thanks, just start my download."
+   <img width="996" height="843" alt="image" src="https://github.com/user-attachments/assets/50f52b89-82bc-45f1-9fe1-40564e7a0d6a" />
 
-✔️ Choose **Web Installer** (recommended for most).
 
 ---
 
@@ -30,23 +28,35 @@ Install MySQL Server + MySQL Workbench and configure it properly for your learni
 
 ---
 
-## 🧱 Step 3 — Choose Installation Type
+## 🧱 Step 3 — A Popup Would Open, Click Next
 
-You'll see installation options like:
+<img width="633" height="470" alt="image" src="https://github.com/user-attachments/assets/b5ad087f-df6a-43a3-b902-a7e8930d59f9" />
 
-* Developer Default
-* Server Only
-* Client Only
-* Full
-* Custom
 
-👉 Select **Developer Default** (includes MySQL Server + Workbench + Tools).
+   🪜 **Choose Path and Click Next**
 
-Then click **Next** → **Execute** to start installation.
+   <img width="613" height="466" alt="image" src="https://github.com/user-attachments/assets/abf4a5bb-f3cb-4189-bc2a-5fbc5773bce0" />
+
+   🪜 **Click on Complete and Next**
+
+   <img width="615" height="463" alt="image" src="https://github.com/user-attachments/assets/9fbd49e3-73cb-4e7f-912f-224aa7dc2516" />
+
+   🪜 **Click on Install**
+    
+   <img width="616" height="472" alt="image" src="https://github.com/user-attachments/assets/3f9b49e4-2dc1-4eb3-9ae7-0e064a201e41" />
+
+   🪜 **Progress bar would come, if asked for Permisson click YES**
+   
+   <img width="619" height="469" alt="image" src="https://github.com/user-attachments/assets/5bb26bb2-d065-4bc0-bc7a-0bc1d9773623" />
+
+   🪜 ** Click Finish**
+
+   <img width="625" height="467" alt="image" src="https://github.com/user-attachments/assets/bf4c7cdb-f399-4f85-9885-2a3dd2e58851" />
+
 
 ---
-
-## 🔒 Step 4 — Configuring MySQL Server
+   
+🪜 **Step 4 - Configuring MySQL Server**
 
 After installation, you’ll configure MySQL Server:
 
