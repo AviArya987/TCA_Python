@@ -32,7 +32,7 @@ DATABASE
 
 # 🟦 **Module 2 — SQL Basics (CRUD)**
 
-### <img src="https://img.shields.io/badge/Progress-10%25-blue?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-8%25-blue?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -56,7 +56,7 @@ WHERE age > 30;
 
 # 🟧 **Module 3 — Filtering, Sorting & Limiting**
 
-### <img src="https://img.shields.io/badge/Progress-20%25-orange?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-16%25-orange?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -69,7 +69,7 @@ WHERE age > 30;
 
 # 🟩 **Module 4 — Advanced SELECT & Query Operations**
 
-### <img src="https://img.shields.io/badge/Progress-35%25-green?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-24%25-green?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -84,7 +84,9 @@ WHERE age > 30;
 ### 📊 ASCII Diagram
 ---
 
-# 🟣 Module 5 — Constraints & Data Integrity
+# 🟫 **Module 5 — Constraints & Data Integrity**
+
+### <img src="https://img.shields.io/badge/Progress-32%25-green?style=flat-square"/>
 
 * Primary Keys
 * Foreign Keys
@@ -96,9 +98,9 @@ WHERE age > 30;
 * Cascading rules (ON DELETE / ON UPDATE)
 ---
 
-# 📔 **Module 6 — SQL Joins**
+# 🟥 **Module 6 — SQL Joins**
 
-### <img src="https://img.shields.io/badge/Progress-35%25-green?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-40%25-green?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -121,7 +123,7 @@ id | name | dep_id  →    id | dep_name
 
 # 🟪 **Module 7 — Aggregations & Grouping**
 
-### <img src="https://img.shields.io/badge/Progress-50%25-purple?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-48%25-purple?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -142,7 +144,7 @@ GROUP BY department;
 
 # 🟥 **Module 8 — Subqueries**
 
-### <img src="https://img.shields.io/badge/Progress-60%25-red?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-56%25-red?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -158,7 +160,9 @@ WHERE salary > (
 );
 ```
 ---
-# 🟤 Module 6 — Database Design (Real-World Data Modeling)
+# 🟫 **Module 9 — Database Design (Real-World Data Modeling)**
+
+### <img src="https://img.shields.io/badge/Progress-64%25-green?style=flat-square"/>
 
 * What is normalization?
 * 1NF, 2NF, 3NF
@@ -174,9 +178,9 @@ WHERE salary > (
 
 ---
 
-# 🟫 **Module 9 — SQL Functions**
+# 🟫 **Module 10 — SQL Functions**
 
-### <img src="https://img.shields.io/badge/Progress-70%25-brown?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-72%25-brown?style=flat-square"/>
 
 ### 📌 **Topics**
 
@@ -207,7 +211,7 @@ WHERE salary > (
 
 ---
 
-# 🟨 **Module 10 — Views, Indexes**
+# 🟨 **Module 11 — Views, Indexes**
 
 ### <img src="https://img.shields.io/badge/Progress-80%25-yellow?style=flat-square"/>
 
@@ -230,8 +234,9 @@ WHERE salary > (
 * When NOT to use indexes
 ---
 
----
-# 🟨 **Module 10 — Procedures, Functions, Triggers & Transactions**
+# 🟫 **Module 12 — Procedures, Functions, Triggers & Transactions**
+
+### <img src="https://img.shields.io/badge/Progress-88%25-green?style=flat-square"/>
 
 ### ⚡ Procedures
 
@@ -373,7 +378,9 @@ WHERE salary > (
 * Multi-step business processes
 
 ---
-# 🟨 **Module 10 — MySQL Administration & Deployment**
+# 🟨 **Module 13 — MySQL Administration & Deployment**
+
+### <img src="https://img.shields.io/badge/Progress-96%25-green?style=flat-square"/>
 
 ### ⚡ Administration
 
@@ -387,9 +394,9 @@ Monitoring MySQL
 Security best practices
 ---
 
-# 🟦 **Module 9 — Normalization & Data Modeling Basics**
+# 🟦 **Module 14 — Normalization & Data Modeling Basics**
 
-### <img src="https://img.shields.io/badge/Progress-90%25-blue?style=flat-square"/>
+### <img src="https://img.shields.io/badge/Progress-100%25-blue?style=flat-square"/>
 
 ### 📌 **Topics**
 
